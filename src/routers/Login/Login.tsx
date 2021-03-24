@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Login.css';
 import axios from 'axios';
-import kakaoLogo from '../../images/kakaoLogo.png';
 import styled from 'styled-components';
-import Api from './../Api';
+import Api from '../../components/Api';
 
 
 const Login = ({ history }) => {
@@ -92,7 +91,6 @@ const Login = ({ history }) => {
     <Container>
         <Inner>
             <div className="logoContainer">
-                <img src={kakaoLogo}/>
             </div>
             <div className="section">
                 <Input placeholder="카카오계정" value={id} name="id" onChange={handleChange} />
