@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoContainer{
+    height: 146px;
+}
+
+#login_auto{
+    display: flex;
+    justify-content: space-between;
+}
+
+#login_auto p{
+    width: fit-content;
+    margin-left: 5px;
+    display: inline;
+    font-size: 12px;
+}
+
+#signUp{
+    margin-top: 5px;
+    font-size: 12px;
+    width: fit-content;
+    height: 20px;
+    text-decoration: underline;
+}
